@@ -1,0 +1,87 @@
+html {
+  /* box-sizing: border-box; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  /* align-items: center; */
+}
+.container {
+  width: 60%;
+  margin: 2rem auto;
+}
+h1 {
+  text-align: center;
+  font-size: 3.2rem;
+  padding: 3rem;
+  font-weight: 600;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(7, 5vw);
+  grid-gap: 1rem;
+}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.gallery__item--1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.gallery__item--3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.gallery__item--4 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+.gallery__item--5 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 5;
+  grid-row-end: 6;
+}
+.gallery__item--6 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 6;
+  grid-row-end: 7;
+}
+.gallery__item--7 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 7;
+  grid-row-end: 8;
+}
+.gallery__item--8 {
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 8;
+}
+.gallery__item--9 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  grid-row-start: 6;
+  grid-row-end: 8;
+}
